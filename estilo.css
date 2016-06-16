@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 1024px;
+    margin: auto;
+}
+header{
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+    background: #1C1C1C;
+}
+.slide{
+    height: 400px;
+    position: relative;
+    background: #1C1C1C;
+}
+nav{
+    height: 50px;
+    position: relative;
+    background: #1C1C1C;
+    border-top: 1px solid black;
+}
+section div{
+    width: 161px;
+    height: 217px;
+    position: relative;
+    background: #1C1C1C;
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+section div:nth-child(6){
+    width: 161px;
+    height: 217px;
+    position: relative;
+    background: #1C1C1C;
+    float: left;
+    margin: 10px 0px 10px 0px;
+}
+footer{
+    height: 50px;
+    background: #1C1C1C;
+    clear: both;
+}
